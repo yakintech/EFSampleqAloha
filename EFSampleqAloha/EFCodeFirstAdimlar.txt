@@ -1,0 +1,13 @@
+﻿1) 3 adet paket yukledim ( paketler proje .net versiyonu ile ayni olmali )
+* ef core
+* ef sql server
+* ef tools
+
+2) Bir adet context olusturdum ve icerisine connection string yazdim
+3) tablomu yani class olusturdum. product...
+4) package manager consolse uzerinden db generate komutlarini yaziyorum
+add-migraton dbInit
+bu komut ile migration olusturuyorum
+
+update-database
+migration db update ediyorum
